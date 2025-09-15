@@ -224,16 +224,6 @@ def create_prompt(user_question):
             Key constraints & deadlines (bullets).
             Citations (source ids/titles).
             Disclaimer (“informational, not legal advice”).
-            If the user asks for JSON, return:
-            
-            {
-              "answer": "<2–5 sentence summary>",
-              "checklist": ["Step 1 ...", "Step 2 ..."],
-              "deadlines": ["<window/date> – <what>"],
-              "forms_and_fees": ["Form <id> – $<fee> – <when/why>"],
-              "citations": ["<source-id or title>#<section/page>"],
-              "disclaimer": "Informational only…"
-            }
             <chat_history>
             {chat_history}
             </chat_history>
@@ -256,7 +246,7 @@ def main():
 1. What do I need to do before I start the OPT process?
 2. How to fill out the OPT form?
 3. What kind of questions can I ask?
-4. I am graduating on December 15, 2025. When can I apply for OPT?
+4. I am graduating in December 15, 2025 when can I apply for OPT?
 """
 )
 
