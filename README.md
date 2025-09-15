@@ -4,7 +4,7 @@ You need a Snowflake account. You can create a 30-day free trial account.
 
 Run the SQL code and follow the steps. You need to upload PDF files during one of the steps.
 
-Create a Streamlit App using Snowflake UI and copy and paste the code from the .py file.
+Create a Streamlit App using Snowflake UI and copy and paste the code from the .py file. You may need to install snowflake.core in the packages from the UI.
 
 Chat with AI.
 
